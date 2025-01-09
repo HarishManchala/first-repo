@@ -1,0 +1,51 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+
+
+.image1{
+  height:50px;
+  width:50px;
+  cursor: pointer;
+
+}
+.image2{
+  
+  height:900px;
+  width:900px;
+  position:relative;
+}
+
+li{
+  cursor: pointer;
+  color:chartreuse;
+}
+
+li:hover{
+  color:red;
+}
+a{
+  color:burlywood;
+  cursor: pointer;
+}
+
+a:hover{
+  color:green;
+  background-color: cyan;
+  transition-duration: 5s;
+  border:solid 2px solid;
+  transition-timing-function: step-start;
+}
+
+nav ul{
+  flex:1;
+  text-align: right;
+  margin-right:150px;
+  position: relative;
+  padding: 2%;
+  margin:2%
+}
